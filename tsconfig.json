@@ -9,11 +9,11 @@
     "paths": {
       "@/*": ["./src/*"],
       "@/routes": ["./src/routes/*"],
-      "@/libs": ["./src/libs/*"]
+      "@/libs": ["./src/libs/*"],
+      "@/helpers": ["./src/helpers/*"],
+      "@/middlewares": ["./src/middlewares/*"]
     },
-    "types": [
-      "node"
-    ],
+    "types": ["node"],
     "strict": true,
     "outDir": "./dist",
     "skipLibCheck": true

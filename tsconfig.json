@@ -9,9 +9,7 @@
     "paths": {
       "@/*": ["./src/*"],
       "@/routes": ["./src/routes/*"],
-      "@/libs": ["./src/libs/*"],
-      "@/helpers": ["./src/helpers/*"],
-      "@/middlewares": ["./src/middlewares/*"]
+      "@/lib": ["./src/lib/*"]
     },
     "types": ["node"],
     "strict": true,
